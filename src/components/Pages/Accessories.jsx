@@ -46,8 +46,8 @@ function Accessories() {
     { id: 12, name: "Aviator Sunglasses", category: "sunglasses", subCategory: "sunglasses", price: 4999, originalPrice: 6999, rating: 4.7, reviews: 134, image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f", badge: "Best Seller", colors: ["#C0C0C0", "#FFD700", "#000000"], materials: ["Stainless Steel"] },
     { id: 13, name: "Leather Belt with Gold Buckle", category: "belts", subCategory: "belts", price: 2999, originalPrice: 3999, rating: 4.6, reviews: 78, image: "/assets/images/g3.png", badge: "New Arrival", colors: ["#8B4513", "#000000"], materials: ["Leather", "Gold"] },
     { id: 14, name: "Designer Chain Belt", category: "belts", subCategory: "belts", price: 4499, originalPrice: 5999, rating: 4.5, reviews: 45, image: "https://images.unsplash.com/photo-1624222247344-550fb60583dc", badge: "Trending", colors: ["#FFD700", "#C0C0C0"], materials: ["Gold", "Silver"] },
-    { id: 15, name: "Silk Scarf", category: "scarves", subCategory: "scarves", price: 1999, originalPrice: 2999, rating: 4.7, reviews: 56, image: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26", badge: "Sale", colors: ["#FF0000", "#800080", "#87CEEB"], materials: ["Silk"] },
-    { id: 16, name: "Cashmere Wrap", category: "scarves", subCategory: "scarves", price: 5999, originalPrice: 7999, rating: 4.8, reviews: 34, image:"/assets/images/g.png", badge: "Premium", colors: ["#8B4513", "#808080", "#800020"], materials: ["Cashmere"] }
+    { id: 15, name: "Silk Scarf", category: "scarves", subCategory: "scarves", price: 1999, originalPrice: 2999, rating: 4.7, reviews: 56, image: "/assets/images/s.png", badge: "Sale", colors: ["#FF0000", "#800080", "#87CEEB"], materials: ["Silk"] },
+    { id: 16, name: "Cashmere Wrap", category: "scarves", subCategory: "scarves", price: 5999, originalPrice: 7999, rating: 4.8, reviews: 34, image:"/assets/images/t.jpg", badge: "Premium", colors: ["#8B4513", "#808080", "#800020"], materials: ["Cashmere"] }
   ];
 
   const [products, setProducts] = useState(hardcodedProducts);
